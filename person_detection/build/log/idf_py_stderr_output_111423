@@ -1,0 +1,128 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m--- 0x400d87b4: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+0x400d815a: tf_main() at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main.cc:35 (discriminator 1)
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d87b7: loop at /home/pedrovillegasss/esp/projects_tf/person_detection/main/main_functions.cc:127
+[0m
+[0;33m--- 0x40086e21: strlen at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x40086e31: s

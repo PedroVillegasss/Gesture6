@@ -51,7 +51,7 @@ constexpr int scratchBufSize = 40 * 1024;
 constexpr int scratchBufSize = 0;
 #endif
 // An area of memory to use for input, output, and intermediate arrays.
-constexpr int kTensorArenaSize = 81 * 1024 + scratchBufSize + 325000 + 50744;
+constexpr int kTensorArenaSize = 100 * 1024 + scratchBufSize;
 static uint8_t *tensor_arena;//[kTensorArenaSize]; // Maybe we should move this to external
 }  // namespace
 
@@ -82,7 +82,7 @@ void setup() {
   //
   // tflite::AllOpsResolver resolver;
   // NOLINTNEXTLINE(runtime-global-variables)
-  static tflite::MicroMutableOpResolver<5> micro_op_resolver;
+  static tflite::MicroMutableOpResolver<9> micro_op_resolver;
   micro_op_resolver.AddAveragePool2D();
   micro_op_resolver.AddConv2D();
   micro_op_resolver.AddDepthwiseConv2D();
@@ -91,6 +91,8 @@ void setup() {
   micro_op_resolver.AddFullyConnected();
   micro_op_resolver.AddLogistic(); 
   micro_op_resolver.AddQuantize();
+  micro_op_resolver.AddMaxPool2D();
+
 
   // Build an interpreter to run the model with.
   // NOLINTNEXTLINE(runtime-global-variables)
@@ -158,7 +160,7 @@ void loop() {
   float palm_moved_score_f = (palm_moved_score - output->params.zero_point) * output->params.scale;
   printf("Score Palm Moved: %f \n",palm_moved_score_f);
   
-  vTaskDelay(1); // to avoid watchdog trigger
+  vTaskDelay(2); // to avoid watchdog trigger
 }
 #endif
 
@@ -178,6 +180,7 @@ void run_inference(void *ptr) {
   /* Convert from uint8 picture data to int8 */
   for (int i = 0; i < kNumCols * kNumRows; i++) {
     input->data.int8[i] = ((uint8_t *) ptr)[i] ^ 0x80;
+    printf("%d, ", input->data.int8[i]);
   }
 
 #if defined(COLLECT_CPU_STATS)
@@ -236,6 +239,8 @@ void run_inference(void *ptr) {
   int8_t palm_moved_score = output->data.uint8[PalmMovedIndex];
   float palm_moved_score_f = (palm_moved_score - output->params.zero_point) * output->params.scale;
   printf("Score Palm Moved: %f \n",palm_moved_score_f);
+  
+  vTaskDelay(2); // to avoid watchdog trigger
 
 
 /*   int8_t person_score = output->data.uint8[kPersonIndex];
