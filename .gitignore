@@ -1,4 +1,5 @@
 /data/
+/data_reshaped/
 .DS_Store
 
 # Logs
